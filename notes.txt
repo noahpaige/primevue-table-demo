@@ -1,0 +1,5 @@
+Stuff to demo
+ - codeium
+    - center the text on homeview and make the heading bigger
+    - prompt: what is the vue3 equivalent of the mounted hook in vue 2? show me an example
+    - 
