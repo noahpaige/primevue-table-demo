@@ -15,6 +15,9 @@ export default {
       iconClass: "pi-moon",
     };
   },
+  mounted() {
+    this.onThemeToggler();
+  },
   methods: {
     onThemeToggler() {
       const root = document.getElementsByTagName("html")[0];

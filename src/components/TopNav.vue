@@ -37,6 +37,7 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import ThemeEditor from "./ThemeEditor.vue";
+import DarkModeToggle from "./DarkModeToggle.vue";
 
 const router = useRouter();
 
@@ -63,4 +64,6 @@ const items = ref([
     },
   },
 ]);
+
+router.push("/");
 </script>

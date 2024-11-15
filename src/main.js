@@ -11,7 +11,6 @@ import router from "./router.js"; // Import the router
 
 import App from "./App.vue";
 import AppState from "./plugins/appState.js";
-import ThemeSwitcher from "./components/ThemeSwitcher.vue";
 import Noir from "./presets/Noir.js";
 
 const app = createApp(App);
@@ -31,7 +30,5 @@ app.use(ConfirmationService);
 app.use(ToastService);
 app.use(DialogService);
 app.use(router);
-
-app.component("ThemeSwitcher", ThemeSwitcher);
 
 app.mount("#app");

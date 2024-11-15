@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="rounded-xl overflow-hidden">
     <iframe
       src="https://projects.arkon.digital/threejs/threejs-earth/"
       frameborder="0"
