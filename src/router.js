@@ -5,7 +5,7 @@ import EarthView from "./views/EarthView.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/primevue-table-demo",
     name: "home",
     component: HomeView,
   },

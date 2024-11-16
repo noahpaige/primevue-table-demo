@@ -46,24 +46,24 @@ const items = ref([
     label: "Home",
     icon: "pi pi-home",
     command: () => {
-      router.push("/");
+      router.push({ name: "home" });
     },
   },
   {
     label: "Opcon",
     icon: "pi pi-cog",
     command: () => {
-      router.push("/opcon");
+      router.push({ name: "opcon" });
     },
   },
   {
     label: "Earth",
     icon: "pi pi-globe",
     command: () => {
-      router.push("/earth");
+      router.push({ name: "earth" });
     },
   },
 ]);
 
-router.push("/");
+router.push({ name: "home" });
 </script>
