@@ -3,11 +3,13 @@
     class="bg-surface-0 dark:bg-surface-900 px-6 py-20 md:px-12 lg:px-20 text-center rounded-2xl"
   >
     <div class="mb-4 font-bold text-3xl">
-      <span class="text-surface-900 dark:text-surface-0">One Product, </span>
-      <span class="text-primary-600 dark:text-primary-400">Many Solutions</span>
+      <span class="text-surface-900 dark:text-surface-0"
+        >A MRAC Template Project
+      </span>
+      <span class="text-primary-600 dark:text-primary-400">Upgrade!</span>
     </div>
     <div class="text-surface-700 dark:text-surface-0/70 mb-[3rem]">
-      Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna.
+      Improving and updating our template project for future projects.
     </div>
     <div
       class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-3.5 gap-y-6"
@@ -23,13 +25,12 @@
         <div
           class="text-surface-900 dark:text-surface-0 text-xl mb-2 font-medium"
         >
-          Built for Developers
+          Upgrade to Vue 3
         </div>
         <p
           class="text-surface-700 dark:text-surface-0/70 leading-normal max-w-sm mx-auto text-center"
         >
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur.
+          Keeps us up to date, and enables the use of other improvements.
         </p>
       </div>
       <div class="w-full p-4">
@@ -43,13 +44,12 @@
         <div
           class="text-surface-900 dark:text-surface-0 text-xl mb-2 font-medium"
         >
-          End-to-End Encryption
+          Standardize Project Structure
         </div>
         <p
           class="text-surface-700 dark:text-surface-0/70 leading-normal max-w-sm mx-auto text-center"
         >
-          Risus nec feugiat in fermentum posuere urna nec. Posuere sollicitudin
-          aliquam ultrices sagittis.
+          Manually bundling packages is a thing of the past.
         </p>
       </div>
       <div class="w-full p-4">
@@ -63,13 +63,19 @@
         <div
           class="text-surface-900 dark:text-surface-0 text-xl mb-2 font-medium"
         >
-          Easy to Use
+          <a
+            href="https://vitejs.dev/"
+            target="_blank"
+            class="text-primary-500 hover:text-primary-400"
+            >Vite</a
+          >
+          Bundler
         </div>
         <p
           class="text-surface-700 dark:text-surface-0/70 leading-normal max-w-sm mx-auto text-center"
         >
-          Ornare suspendisse sed nisi lacus sed viverra tellus. Neque volutpat
-          ac tincidunt vitae semper.
+          Create builds, development server, and tree shaking for reduced build
+          size.
         </p>
       </div>
       <div class="w-full p-4">
@@ -83,13 +89,12 @@
         <div
           class="text-surface-900 dark:text-surface-0 text-xl mb-2 font-medium"
         >
-          Fast & Global Support
+          Vue Router
         </div>
         <p
           class="text-surface-700 dark:text-surface-0/70 leading-normal max-w-sm mx-auto text-center"
         >
-          Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum
-          tellus.
+          Simplify routing management.
         </p>
       </div>
       <div class="w-full p-4">
@@ -103,13 +108,35 @@
         <div
           class="text-surface-900 dark:text-surface-0 text-xl mb-2 font-medium"
         >
-          Open Source
+          <a
+            href="https://primevue.org/"
+            target="_blank"
+            class="text-primary-500 hover:text-primary-400"
+            >Primevue Component Library</a
+          >
         </div>
         <p
           class="text-surface-700 dark:text-surface-0/70 leading-normal max-w-sm mx-auto text-center"
         >
-          Nec tincidunt praesent semper feugiat. Sed adipiscing diam donec
-          adipiscing tristique risus nec feugiat.
+          Components for lots of awesome things like
+          <a
+            href="https://primevue.org/datepicker/#time"
+            target="_blank"
+            class="text-primary-500 hover:text-primary-400"
+            >date picker</a
+          >,
+          <a
+            href="https://primevue.org/editor/"
+            target="_blank"
+            class="text-primary-500 hover:text-primary-400"
+            >wysiwig editor</a
+          >,
+          <a
+            href="https://primevue.org/datatable/"
+            target="_blank"
+            class="text-primary-500 hover:text-primary-400"
+            >tables</a
+          >, and more.
         </p>
       </div>
       <div class="w-full p-4">
@@ -123,7 +150,7 @@
         <div
           class="text-surface-900 dark:text-surface-0 text-xl mb-2 font-medium"
         >
-          Trusted Security
+          Lorem Ipsum
         </div>
         <p
           class="text-surface-700 dark:text-surface-0/70 leading-normal max-w-sm mx-auto text-center"
